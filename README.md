@@ -10,6 +10,7 @@ do to improve it.
 ## How to get started with the project
 1. Download the repo locally and extract
 2. Navigate through IDE to the local folder
+3. GetA API key
 
 
 ## Resources used

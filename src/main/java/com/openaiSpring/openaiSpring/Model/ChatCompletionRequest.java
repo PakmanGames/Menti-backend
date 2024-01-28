@@ -7,10 +7,11 @@ import java.util.List;
 
 @Data
 public class ChatCompletionRequest {
+    // This represents the OpenAI language model that will be used (gpt-3.5-turbo)
     private String model;
     private List<ChatMessage> messages;
 
-
+    // Constructor to make ChatCompletionRequest object representing POST request
     public ChatCompletionRequest(String model, String prompt) {
         this.model = model;
         this.messages = new ArrayList<ChatMessage>();

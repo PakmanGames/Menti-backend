@@ -10,6 +10,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ChatCompletionResponse {
+    // List of choices with indexes and the associated messages
     private List<Choice> choices;
 
     @Data

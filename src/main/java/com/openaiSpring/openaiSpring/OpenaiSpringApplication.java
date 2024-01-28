@@ -8,13 +8,15 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class OpenaiSpringApplication {
 
-	private String openaiApiKey = "Key goes here";
+	// OpenAI API key
+	private String openaiApiKey = "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";
 
 	public static void main(String[] args) {
+		// Starts this application
 		SpringApplication.run(OpenaiSpringApplication.class, args);
 	}
 
-	@Bean
+	@Bean // Bean
 	public RestTemplate restTemplate() {
 		RestTemplate restTemplate = new RestTemplate();
 		restTemplate.getInterceptors().add((request, body, execution) -> {

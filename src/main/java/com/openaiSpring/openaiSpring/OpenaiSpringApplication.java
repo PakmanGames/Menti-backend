@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class OpenaiSpringApplication {
 
-	private String openaiApiKey = "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";
+	private String openaiApiKey = "Key goes here";
 
 	public static void main(String[] args) {
 		SpringApplication.run(OpenaiSpringApplication.class, args);

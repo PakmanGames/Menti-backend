@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 public class OpenaiSpringApplication {
 
 	// OpenAI API key
-	private String openaiApiKey = "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";
+	private String openaiApiKey = "API KEY GOES HERE";
 
 	public static void main(String[] args) {
 		// Starts this application
